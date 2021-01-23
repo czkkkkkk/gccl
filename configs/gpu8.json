@@ -1,0 +1,14 @@
+{
+  "world_size": 8,
+  "n_blocks": 32,
+  "n_threads": 512,
+  "max_feat_size": 256,
+  "buffer_size_log2": 22,
+  "rings": [[0, 1, 3, 7, 5, 4, 6, 2], [2, 6, 4, 5, 7, 3, 1, 0]
+  ],
+  "repeat_ring": 32,
+  "comm_pattern": "ALLTOALL",
+  "transport_level": "NV1",
+  "threads_per_conn": 64,
+  "dev_graph_file": "/some/where/to/gccl/configs/dev_graph.json"
+}
